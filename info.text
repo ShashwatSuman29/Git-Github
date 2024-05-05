@@ -16,3 +16,8 @@ step 1 - click on add a existing repo in github desktop
 step 2 - open the folder where all the code file are present
 step 3 - it will say no such repo in present on github , so create a new repo
 step 4 - then fetch origin / push all the code to github
+
+how to clone github repo in vs code
+step 1 - copy the http link of the repo
+step 2 - open the folder in vs code where you want to clone the repo
+step 3 - either click on source control (ctrl+ shift+ G) and clone the repo or open terminal and wirte git clone "link of the repo"
