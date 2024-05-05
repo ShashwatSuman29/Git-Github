@@ -1,0 +1,17 @@
+how to push or commit code from vs code:
+
+step 1 - create repo
+step 2 - open a folden in vs code and then open terminal
+step 3- git init (which initialise git)
+step 4- git add . (which adds all the file present in the folder to git)
+step 5 - git commit (it commit the files)
+step 6 - git remote add origin "link of repo"
+step 7 - git push origin master ( specify which branch of push) 
+step 8 - Sign in to let know who is pushing the code.
+
+how to push or commit code from github desktop:
+
+step 1 - click on add a existing repo in github desktop
+step 2 - open the folder where all the code file are present
+step 3 - it will say no such repo in present on github , so create a new repo
+step 4 - then fetch origin / push all the code to github
