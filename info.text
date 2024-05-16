@@ -21,3 +21,19 @@ how to clone github repo in vs code
 step 1 - copy the http link of the repo
 step 2 - open the folder in vs code where you want to clone the repo
 step 3 - either click on source control (ctrl+ shift+ G) and clone the repo or open terminal and wirte git clone "link of the repo"
+
+What is git?
+-Git is a distributed version control system (DVCS) used for tracking changes in source code during software development. It allows multiple developers to collaborate on projects and keep track of changes made to the codebase over time. Here are some key features of Git:
+
+1.Version Control: Git allows you to track changes to your codebase over time. It keeps a record of every change, who made it, and when.
+
+2.Distributed Development: Git allows each developer to have a local copy of the entire development history. This means developers can work offline and independently, and then synchronize their work with others when they are ready.
+
+3.Branching and Merging: Git makes it easy to create branches to work on new features or fixes without affecting the main codebase. Branches can be merged back into the main codebase when the work is completed.
+
+4.Remote Repositories: Git allows you to work with remote repositories hosted on services like GitHub, GitLab, or Bitbucket. This enables collaboration between developers working in different locations.
+
+5.Speed and Efficiency: Git is designed to be fast and efficient, allowing you to perform operations like committing changes, branching, merging, and searching through history quickly.
+
+6.Open Source: Git is an open-source project maintained by a large community of developers. This means it is continuously improved and updated with new features and enhancements.
+
