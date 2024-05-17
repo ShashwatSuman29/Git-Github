@@ -4,7 +4,7 @@ step 1 - create repo
 step 2 - open a folder in vs code and then open terminal
 step 3- git init (which initialise git)
 step 4- git add . (which adds all the file present in the folder to git)
-step 5 - git commit -am "commit message" (it commits the files)
+step 5 - git commit -m "commit message" (it commits the files)
 step 6 - git branch -M main (specify which branch to push code on)
 step 7 - git remote add origin "link of repo"
 step 8 - git push origin master ( specify which branch of push) 
@@ -23,17 +23,68 @@ step 2 - open the folder in vs code where you want to clone the repo
 step 3 - either click on source control (ctrl+ shift+ G) and clone the repo or open terminal and wirte git clone "link of the repo"
 
 What is git?
--Git is a distributed version control system (DVCS) used for tracking changes in source code during software development. It allows multiple developers to collaborate on projects and keep track of changes made to the codebase over time. Here are some key features of Git:
+-It is a version control system tool that helps to track chnages in code.
+-Git is a version control sysytem 
+-It is popular, free&open source , fast & scalable.
 
-1.Version Control: Git allows you to track changes to your codebase over time. It keeps a record of every change, who made it, and when.
+What is Github?
+-It is a website that allows developers to store and manage their code using git.
+-Code in stored here in the form of folder which is called repository.
 
-2.Distributed Development: Git allows each developer to have a local copy of the entire development history. This means developers can work offline and independently, and then synchronize their work with others when they are ready.
+Command in git :-
 
-3.Branching and Merging: Git makes it easy to create branches to work on new features or fixes without affecting the main codebase. Branches can be merged back into the main codebase when the work is completed.
+-git status : display the state of the code.
+-untracked : new files that git does'nt yet track.
+-modified : changed
+-staged : files is ready to be commited.
+-unmodified : unchanged
+-git add / add . : adds new or changed files in your working directory to the git staging area.
+-git commit : it is the record of changes.
+-git push : upload local repo content to remote(github) repo.
+-git remote -v : to verify in which remote you are.
+-git branch : to check branch
+-git init : it is used topo create a new git repo
 
-4.Remote Repositories: Git allows you to work with remote repositories hosted on services like GitHub, GitLab, or Bitbucket. This enables collaboration between developers working in different locations.
 
-5.Speed and Efficiency: Git is designed to be fast and efficient, allowing you to perform operations like committing changes, branching, merging, and searching through history quickly.
+Branch commands :-
 
-6.Open Source: Git is an open-source project maintained by a large community of developers. This means it is continuously improved and updated with new features and enhancements.
+- git branch : to check branch
+- git branch -M main : to rename branch
+- git checkout <-branch name-> : to navigate or to switch to different branch
+- git checkout -b <-new branch name-> : to create new branch
+- git branch -d <-branch name -> : to delete branch 
 
+Merge code :-
+
+method 1 :
+- git diff <- branch name -> : to compare commits, branches , files & more.
+- git merge <-branch name-> : to merge 2 branches
+
+method 2 :
+-Create a PR( pull request)
+
+what is Pull request?
+-It lets you tell others about changes you have pushed to a branch in a repo on github.
+
+Pull command -
+-git pull origin main : used to fetch and download content from a remote repo and immediately update the local repo to match that content
+
+Resolving merge conflicts:-
+An event that takes place when git is unable to automatically resolve diiferences in code between two commits.
+
+Undoing changes :-
+
+case 1 : stages changes 
+ -git reset<-filename->
+ -git reset (to reset all the changes)
+
+case 2 : commited changes (for one commits)
+-git reset HEAD~1 (here HEAD means last commit)
+
+case 3 : commited changes (for many commits)
+-git reset<-commit hash->
+-git reset --hard <-commit hash->
+
+FORK:-
+-A fork is a new repo that shares code and visibility settings with the original upstream repo.
+-it is a rough copy
