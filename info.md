@@ -100,7 +100,7 @@
 - A fork is a new repo that shares code and visibility settings with the original upstream repo.
 - It is a rough copy.
 
-# GitHub Gists
+# Gist
 
 - In GitHub, a Gist is a service that allows you to share snippets of code or text quickly and easily. 
 
