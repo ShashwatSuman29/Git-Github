@@ -1,27 +1,27 @@
 ## How to Push or Commit Code from VS Code
 
-**Step 1:** Create a repo
-**Step 2:** Open a folder in VS Code and then open the terminal
-**Step 3:** `git init` (initialize git)
-**Step 4:** `git add .` (add all files present in the folder to git)
-**Step 5:** `git commit -m "commit message"` (commit the files)
-**Step 6:** `git branch -M main` (specify which branch to push code on)
-**Step 7:** `git remote add origin "link of repo"`
-**Step 8:** `git push origin main` (specify which branch to push)
-**Step 9:** Sign in to let know who is pushing the code.
+**Step 1:** Create a repo<br>
+**Step 2:** Open a folder in VS Code and then open the terminal<br>
+**Step 3:** `git init` (initialize git)<br>
+**Step 4:** `git add .` (add all files present in the folder to git)<br>
+**Step 5:** `git commit -m "commit message"` (commit the files)<br>
+**Step 6:** `git branch -M main` (specify which branch to push code on)<br>
+**Step 7:** `git remote add origin "link of repo"`<br>
+**Step 8:** `git push origin main` (specify which branch to push)<br>
+**Step 9:** Sign in to let know who is pushing the code.<br>
 
 ## How to Push or Commit Code from GitHub Desktop
 
-**Step 1:** Click on "Add an existing repo" in GitHub Desktop
-**Step 2:** Open the folder where all the code files are present
-**Step 3:** It will say no such repo is present on GitHub, so create a new repo
-**Step 4:** Then fetch origin / push all the code to GitHub
+**Step 1:** Click on "Add an existing repo" in GitHub Desktop<br>
+**Step 2:** Open the folder where all the code files are present<br>
+**Step 3:** It will say no such repo is present on GitHub, so create a new repo<br>
+**Step 4:** Then fetch origin / push all the code to GitHub<br>
 
 ## How to Clone GitHub Repo in VS Code
 
-**Step 1:** Copy the HTTP link of the repo
-**Step 2:** Open the folder in VS Code where you want to clone the repo
-**Step 3:** Either click on Source Control (Ctrl + Shift + G) and clone the repo or open the terminal and write `git clone "link of the repo"`
+**Step 1:** Copy the HTTP link of the repo<br>
+**Step 2:** Open the folder in VS Code where you want to clone the repo<br>
+**Step 3:** Either click on Source Control (Ctrl + Shift + G) and clone the repo or open the terminal and write `git clone "link of the repo"`<br>
 
 ## What is Git?
 
