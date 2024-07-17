@@ -102,5 +102,5 @@
 
 # GitHub Gists
 
-In GitHub, a Gist is a service that allows you to share snippets of code or text quickly and easily. 
+- In GitHub, a Gist is a service that allows you to share snippets of code or text quickly and easily. 
 
